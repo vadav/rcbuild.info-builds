@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Redrotor RC - Strider v1.1",
+    "esc": "Flyduino/KISS-18A",
+    "motor": "T-Motor/MN2206-2000kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "Gemfan/6x4.5-CFN-MR"
+    ],
+    "arm": "",
+    "battery": [
+      "Turnigy/Nano-Tech-4S-2200mAh-45-90C"
+    ],
+    "osd": "Built into frame.",
+    "receiver": "FrSky/X4RSB",
+    "flightcam": "Pixim Seawolf",
+    "hqcam": "SpyTec/Mobius-Action-Cam-Wide-Angle",
+    "videotx": "Skyzone/TS5823-200mw-video-transmitter",
+    "blackbox": "",
+    "voltagereg": "Custom"
+  },
+  "version": 1
 }
